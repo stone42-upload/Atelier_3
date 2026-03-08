@@ -13,4 +13,7 @@ class Parc:
         else:
             print("Désolé il n'y a pas assez de place dans ce parc")
 
-
+    def sortirVoiture(self, voiture):
+        if voiture in self.voitures:
+            self.voitures.remove(voiture)
+            print(f"il reste {self.capacite-len(self.voitures)} places disponibles")
