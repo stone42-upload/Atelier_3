@@ -17,3 +17,6 @@ class Parc:
         if voiture in self.voitures:
             self.voitures.remove(voiture)
             print(f"il reste {self.capacite-len(self.voitures)} places disponibles")
+
+    def calculerNbPlacesLibres(self):
+        return len(self.voitures)
