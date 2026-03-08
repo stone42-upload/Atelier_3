@@ -7,3 +7,5 @@ voiture2 = Voiture("JNI 717", "Porshe", "Rouge")
 
 parc.entrerVoiture(voiture1)
 parc.entrerVoiture(voiture2)
+
+parc.sortirVoiture(voiture1)
